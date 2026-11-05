@@ -1,0 +1,24 @@
+{
+  "n_rows": 2000,
+  "n_train": 1280,
+  "n_val": 320,
+  "n_test": 400,
+  "best_iteration": 164,
+  "test_mae_kg": 0.3522299187842837,
+  "test_rmse_kg": 0.44229573484256707,
+  "test_r2": 0.8361527075044404,
+  "baseline_mae_kg": 0.8730232752596987,
+  "target_std_kg": 1.073222916211715,
+  "gost_pass_rate": 0.894,
+  "headroom_true_mean_kg": 9.842180531678949,
+  "headroom_predicted_test_mean_kg": 9.963071044303364,
+  "feature_importance": {
+    "scrap_2a_kg": 2.849569013496313,
+    "scrap_6a_kg": 2.968301234498253,
+    "pig_iron_kg": 6.603985931860883,
+    "oxygen_m3": 10.76622730567814,
+    "slag_basicity": 69.69571023251682,
+    "tap_temp_c": 3.7295007202690846,
+    "carbon_pct": 3.386705561680513
+  }
+}
